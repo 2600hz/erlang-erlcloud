@@ -13,6 +13,9 @@ all: compile
 clean:
 	@$(REBAR) clean
 
+distclean:
+	@rm -r _build/
+
 compile:
 	@$(REBAR) compile
 
